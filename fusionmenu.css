@@ -1,0 +1,165 @@
+header h1 {
+    font-family: Kaushan Script;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    text-transform: uppercase;
+    padding: 3px;
+    background-color: rgb(29, 26, 26);
+}
+
+nav {
+    font-family: kalam;
+    background-color: #be0e0e;
+    overflow: hidden;
+}
+
+nav a {
+    margin-top: 7px;
+    margin-bottom: 1px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 19px;
+    float: left;
+    color: white;
+}
+nav a:hover{
+    transition: 0.3s;
+    color: #000000;
+}
+.login button{
+    font-family: kalam;
+    margin-bottom: 0.1px;
+    margin-left: 700px;
+    height: 35px;
+    width: 120px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background: transparent;
+    color: rgb(248, 248, 248);
+    border: 2px solid #fcfcfc;
+    cursor: pointer;
+    border-radius: 100px;
+
+}
+.login button:hover{
+    transition: 0.4s;
+    background-color: #ffffff;
+    color: #000000;
+}
+.menu:hover{
+    transition: 0.4S;
+    color: rgb(223, 112, 8);
+}
+h2:hover{
+    transition: 0.4S;
+    color: rgb(223, 112, 8);
+}
+body{
+    background-color: black;
+    color: #fcfcfc;
+}
+.menu{
+    font-size: 25px;
+    font-family: Kaushan Script;
+    text-align: center;
+}
+h2{
+    margin-top: 60px;
+    margin-left: 20px;
+    font-family: kalam;
+    font-size: 40px;
+}
+footer{
+    text-align: center;
+    font-family: kalam;
+    background-color: rgb(29, 26, 26);
+    overflow: hidden;
+    padding: 0px;
+    justify-content: center;
+}
+.row{
+display: flex;
+}
+.footer{
+width: 25%;
+panding:0 12px;
+}
+.deal1{
+    justify-content: center;
+     margin: 60px ;
+}
+.deal1 img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.deal2{
+    justify-content: center;
+    margin-top: 10px;
+     margin-left: 50px ;
+}
+.deal2 img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.deal3{
+    justify-content: center;
+     margin: 70px ;
+}
+.deal3 img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.deal4{
+    justify-content: center;
+     margin: 10px ;
+}
+.deal4 img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.deal5{
+    justify-content: center;
+     margin: 60px ;
+}
+.deal5 img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.deal6{
+    justify-content: center;
+     margin: 60px ;
+}
+.deal6 img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.deal7{
+    justify-content: center;
+     margin: 60px ;
+}
+.deal7 img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.deal8{
+    justify-content: center;
+     margin: 60px ;
+}
+.deal8 img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    z-index: 2;
+}

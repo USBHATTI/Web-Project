@@ -1,0 +1,112 @@
+*{
+    background-image: url(sign1.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.signup{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 295px;
+    text-decoration: underline;
+}
+.inform{
+    font-size: 14px;
+    margin-top: 0px;
+    margin-left: 195px;
+}
+.sign{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 280px;
+}
+button{
+    height: 32px;
+    width: 140px;
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+    color: rgb(3, 3, 3);
+    border: 1px solid #e20f0f;
+    cursor: pointer;
+    border-radius: 100px;
+}
+button:hover{
+    transition: 0.1s;
+    background-color: #f19e22;
+    color: #ffffff;
+}
+input{
+    position:static;
+    height:22px;
+    width: 180px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+}
+.password{
+    font-size: 15px;
+}
+.password input{
+
+    height:20px;
+    width: 140px
+}
+.passwordheading{
+    font-size: 15px;
+    text-decoration: underline;
+    margin-left: 105PX;
+}
+.gender{
+    text-decoration: underline;
+    margin-left: 130px;
+}
+.radio input{
+    margin-top: 0%;
+    margin-left: 30px;
+    height:12px;
+    width: 50px;
+
+}
+select{
+    height:22px;
+    width: 180px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+
+}
+.createpass{
+    margin-top: 25px;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+.back button{
+    height: 30px;
+    width: 70px;
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+    color: rgb(3, 3, 3);
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 100px;
+}
+button a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #000000;
+}
+.back button:hover{
+    transition: 0.1s;
+    background-color: #f19e22;
+    color: #ffffff;
+}
+.checkbox input{
+    margin-top: 0%;
+    margin-left: 0px;
+    font-size: 10px;
+    height:12px;
+    width: 50px;
+
+}

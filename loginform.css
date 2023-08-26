@@ -1,0 +1,88 @@
+*{
+    background-image: url(loginn.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.loginin{
+    font-size: 20px;
+    margin-top: 110px;
+    margin-left: 285px;
+    text-decoration: underline;
+}
+.inform{
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 195px;
+}
+.login{
+    margin-top: 60px;
+    margin-left: 250px;
+}
+.sign{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+input{
+    position:static;
+    height:30px;
+    width: 200px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+}
+.login button{
+    height: 35px;
+    width: 180px;
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+    color: rgb(3, 3, 3);
+    border: 1px solid #e20f0f;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.login button:hover{
+    transition: 0.1s;
+    background-color: #f19e22;
+    color: #ffffff;
+}
+.sign button{
+    font-size: 11px;
+    height: 25px;
+    width: 80px;
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+    color: rgb(3, 3, 3);
+    border: 1px solid #e20f0f;
+    cursor: pointer;
+    border-radius: 100px;
+
+}
+.sign button:hover{
+    transition: 0.1s;
+    background-color: #e20101;
+    color: #ffffff;
+}
+.back button{
+    height: 30px;
+    width: 70px;
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+    color: rgb(3, 3, 3);
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 100px;
+}
+button a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #000000;
+}
+.back button:hover{
+    transition: 0.1s;
+    background-color: #f19e22;
+    color: #ffffff;
+}

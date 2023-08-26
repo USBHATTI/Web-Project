@@ -1,0 +1,25 @@
+*{
+    background-image: url("freeDelivery.png");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.menu button{
+    margin-top: 260px;
+    margin-left: 295px;
+    height: 40px;
+    width: 250px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: transparent;
+    color: rgb(223, 112, 8);
+    border: 2px solid #d3660c;
+    cursor: pointer;
+    border-radius: 100px;
+    
+}
+.menu button:hover{
+    transition: 0.4s;
+    background-color: #d3660c;
+    color: #fcfcfc;
+}

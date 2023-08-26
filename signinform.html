@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="signinfornm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Log in/Sign up</title>
+</head>
+<body>
+    <form action="loginform.html">
+        <div class="back">
+            <button type="submit"> back </button>
+        </div>
+    </form>
+    <div class="signup">
+    <h2>Sign up</h2>
+    </div>
+    <form action="freshfusion.html">
+        <div class="inform">
+        <p>First Name: &nbsp;&nbsp;  <input type="text" required></p>
+        <p>Last Name:&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" required></p>
+        <p>Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input type="number" required></p>
+        <div class="gender"><p>Gender</p></div>
+        <div class="radio"><input type="radio" name="gender">Male<input type="radio" name="gender">Female</div>
+        <p>Email:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" placeholder="abc@gmail.com" name="email" id="Email" required></p>
+        <p>
+            Select City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="Select City" id="Select City" required>
+                <option >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Select a Option</option>
+                <option >Lahore</option>
+                <option >Karachi</option>
+                <option >Sialkot</option>
+                <option >Sargoda</option>
+                <option >Rawaloindi</option>
+                <option >Okara</option>
+            </select>
+        </p>
+        <div class="passwordheading">
+            <p>Create Password</p>
+        </div>
+        <div class="password">
+            <p>New Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" required></p>
+            <p>Confirm Password: &nbsp;&nbsp;&nbsp; <input type="password" required></p>  
+        </div>
+        <div class="checkbox"><input type="checkbox" required> l agree with the term and conditions </div>
+        </div>
+        <div class="sign">
+           <button type="submit"> Sign up</button>
+        </div>
+    </form>
+</body>
+</html>
